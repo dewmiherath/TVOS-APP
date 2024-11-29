@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75F4FBBF2CF96B9B0099E42F /* tvosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F4FBBE2CF96B9B0099E42F /* tvosApp.swift */; };
+		75F4FBC12CF96B9B0099E42F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F4FBC02CF96B9B0099E42F /* ContentView.swift */; };
+		75F4FBC32CF96B9C0099E42F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F4FBC22CF96B9C0099E42F /* Assets.xcassets */; };
+		75F4FBC62CF96B9C0099E42F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F4FBC52CF96B9C0099E42F /* Preview Assets.xcassets */; };
+		75F4FBC82CF96B9C0099E42F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F4FBC72CF96B9C0099E42F /* Persistence.swift */; };
+		75F4FBCB2CF96B9C0099E42F /* tvos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75F4FBC92CF96B9C0099E42F /* tvos.xcdatamodeld */; };
+		75F4FBD52CF96B9C0099E42F /* tvosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F4FBD42CF96B9C0099E42F /* tvosTests.swift */; };
+		75F4FBDF2CF96B9C0099E42F /* tvosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F4FBDE2CF96B9C0099E42F /* tvosUITests.swift */; };
+		75F4FBE12CF96B9C0099E42F /* tvosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F4FBE02CF96B9C0099E42F /* tvosUITestsLaunchTests.swift */; };
+		75F4FBEE2CF973800099E42F /* UserPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F4FBED2CF973800099E42F /* UserPage.swift */; };
+		75F4FBF02CF992030099E42F /* NetflixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F4FBEF2CF992030099E42F /* NetflixView.swift */; };
+		75F4FBF22CF9924D0099E42F /* AppleTVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F4FBF12CF9924D0099E42F /* AppleTVView.swift */; };
+		75F4FBF42CF9927E0099E42F /* YouTubeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F4FBF32CF9927E0099E42F /* YouTubeView.swift */; };
+		75F4FBF62CF9929F0099E42F /* DisneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F4FBF52CF9929F0099E42F /* DisneyView.swift */; };
+		75F4FBF82CF9B3440099E42F /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F4FBF72CF9B3440099E42F /* MediaItem.swift */; };
+		75F4FBFA2CF9B84F0099E42F /* CustomBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F4FBF92CF9B84F0099E42F /* CustomBackButton.swift */; };
+		75F4FBFC2CF9EB3F0099E42F /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F4FBFB2CF9EB3F0099E42F /* Identifiable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75F4FBD12CF96B9C0099E42F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75F4FBB32CF96B9B0099E42F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75F4FBBA2CF96B9B0099E42F;
+			remoteInfo = tvos;
+		};
+		75F4FBDB2CF96B9C0099E42F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75F4FBB32CF96B9B0099E42F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75F4FBBA2CF96B9B0099E42F;
+			remoteInfo = tvos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75F4FBBB2CF96B9B0099E42F /* tvos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F4FBBE2CF96B9B0099E42F /* tvosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvosApp.swift; sourceTree = "<group>"; };
+		75F4FBC02CF96B9B0099E42F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		75F4FBC22CF96B9C0099E42F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75F4FBC52CF96B9C0099E42F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75F4FBC72CF96B9C0099E42F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		75F4FBCA2CF96B9C0099E42F /* tvos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tvos.xcdatamodel; sourceTree = "<group>"; };
+		75F4FBD02CF96B9C0099E42F /* tvosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tvosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F4FBD42CF96B9C0099E42F /* tvosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvosTests.swift; sourceTree = "<group>"; };
+		75F4FBDA2CF96B9C0099E42F /* tvosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tvosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F4FBDE2CF96B9C0099E42F /* tvosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvosUITests.swift; sourceTree = "<group>"; };
+		75F4FBE02CF96B9C0099E42F /* tvosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		75F4FBED2CF973800099E42F /* UserPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPage.swift; sourceTree = "<group>"; };
+		75F4FBEF2CF992030099E42F /* NetflixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixView.swift; sourceTree = "<group>"; };
+		75F4FBF12CF9924D0099E42F /* AppleTVView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleTVView.swift; sourceTree = "<group>"; };
+		75F4FBF32CF9927E0099E42F /* YouTubeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeView.swift; sourceTree = "<group>"; };
+		75F4FBF52CF9929F0099E42F /* DisneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyView.swift; sourceTree = "<group>"; };
+		75F4FBF72CF9B3440099E42F /* MediaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		75F4FBF92CF9B84F0099E42F /* CustomBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackButton.swift; sourceTree = "<group>"; };
+		75F4FBFB2CF9EB3F0099E42F /* Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75F4FBB82CF96B9B0099E42F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F4FBCD2CF96B9C0099E42F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F4FBD72CF96B9C0099E42F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75F4FBB22CF96B9B0099E42F = {
+			isa = PBXGroup;
+			children = (
+				75F4FBBD2CF96B9B0099E42F /* tvos */,
+				75F4FBD32CF96B9C0099E42F /* tvosTests */,
+				75F4FBDD2CF96B9C0099E42F /* tvosUITests */,
+				75F4FBBC2CF96B9B0099E42F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75F4FBBC2CF96B9B0099E42F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75F4FBBB2CF96B9B0099E42F /* tvos.app */,
+				75F4FBD02CF96B9C0099E42F /* tvosTests.xctest */,
+				75F4FBDA2CF96B9C0099E42F /* tvosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75F4FBBD2CF96B9B0099E42F /* tvos */ = {
+			isa = PBXGroup;
+			children = (
+				75F4FBBE2CF96B9B0099E42F /* tvosApp.swift */,
+				75F4FBC02CF96B9B0099E42F /* ContentView.swift */,
+				75F4FBED2CF973800099E42F /* UserPage.swift */,
+				75F4FBFB2CF9EB3F0099E42F /* Identifiable.swift */,
+				75F4FBF92CF9B84F0099E42F /* CustomBackButton.swift */,
+				75F4FBEF2CF992030099E42F /* NetflixView.swift */,
+				75F4FBF52CF9929F0099E42F /* DisneyView.swift */,
+				75F4FBF12CF9924D0099E42F /* AppleTVView.swift */,
+				75F4FBF72CF9B3440099E42F /* MediaItem.swift */,
+				75F4FBF32CF9927E0099E42F /* YouTubeView.swift */,
+				75F4FBC22CF96B9C0099E42F /* Assets.xcassets */,
+				75F4FBC72CF96B9C0099E42F /* Persistence.swift */,
+				75F4FBC92CF96B9C0099E42F /* tvos.xcdatamodeld */,
+				75F4FBC42CF96B9C0099E42F /* Preview Content */,
+			);
+			path = tvos;
+			sourceTree = "<group>";
+		};
+		75F4FBC42CF96B9C0099E42F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				75F4FBC52CF96B9C0099E42F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75F4FBD32CF96B9C0099E42F /* tvosTests */ = {
+			isa = PBXGroup;
+			children = (
+				75F4FBD42CF96B9C0099E42F /* tvosTests.swift */,
+			);
+			path = tvosTests;
+			sourceTree = "<group>";
+		};
+		75F4FBDD2CF96B9C0099E42F /* tvosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75F4FBDE2CF96B9C0099E42F /* tvosUITests.swift */,
+				75F4FBE02CF96B9C0099E42F /* tvosUITestsLaunchTests.swift */,
+			);
+			path = tvosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75F4FBBA2CF96B9B0099E42F /* tvos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75F4FBE42CF96B9C0099E42F /* Build configuration list for PBXNativeTarget "tvos" */;
+			buildPhases = (
+				75F4FBB72CF96B9B0099E42F /* Sources */,
+				75F4FBB82CF96B9B0099E42F /* Frameworks */,
+				75F4FBB92CF96B9B0099E42F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tvos;
+			productName = tvos;
+			productReference = 75F4FBBB2CF96B9B0099E42F /* tvos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75F4FBCF2CF96B9C0099E42F /* tvosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75F4FBE72CF96B9C0099E42F /* Build configuration list for PBXNativeTarget "tvosTests" */;
+			buildPhases = (
+				75F4FBCC2CF96B9C0099E42F /* Sources */,
+				75F4FBCD2CF96B9C0099E42F /* Frameworks */,
+				75F4FBCE2CF96B9C0099E42F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75F4FBD22CF96B9C0099E42F /* PBXTargetDependency */,
+			);
+			name = tvosTests;
+			productName = tvosTests;
+			productReference = 75F4FBD02CF96B9C0099E42F /* tvosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75F4FBD92CF96B9C0099E42F /* tvosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75F4FBEA2CF96B9C0099E42F /* Build configuration list for PBXNativeTarget "tvosUITests" */;
+			buildPhases = (
+				75F4FBD62CF96B9C0099E42F /* Sources */,
+				75F4FBD72CF96B9C0099E42F /* Frameworks */,
+				75F4FBD82CF96B9C0099E42F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75F4FBDC2CF96B9C0099E42F /* PBXTargetDependency */,
+			);
+			name = tvosUITests;
+			productName = tvosUITests;
+			productReference = 75F4FBDA2CF96B9C0099E42F /* tvosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75F4FBB32CF96B9B0099E42F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					75F4FBBA2CF96B9B0099E42F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					75F4FBCF2CF96B9C0099E42F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 75F4FBBA2CF96B9B0099E42F;
+					};
+					75F4FBD92CF96B9C0099E42F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 75F4FBBA2CF96B9B0099E42F;
+					};
+				};
+			};
+			buildConfigurationList = 75F4FBB62CF96B9B0099E42F /* Build configuration list for PBXProject "tvos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75F4FBB22CF96B9B0099E42F;
+			productRefGroup = 75F4FBBC2CF96B9B0099E42F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75F4FBBA2CF96B9B0099E42F /* tvos */,
+				75F4FBCF2CF96B9C0099E42F /* tvosTests */,
+				75F4FBD92CF96B9C0099E42F /* tvosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75F4FBB92CF96B9B0099E42F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F4FBC62CF96B9C0099E42F /* Preview Assets.xcassets in Resources */,
+				75F4FBC32CF96B9C0099E42F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F4FBCE2CF96B9C0099E42F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F4FBD82CF96B9C0099E42F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75F4FBB72CF96B9B0099E42F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F4FBC82CF96B9C0099E42F /* Persistence.swift in Sources */,
+				75F4FBFC2CF9EB3F0099E42F /* Identifiable.swift in Sources */,
+				75F4FBCB2CF96B9C0099E42F /* tvos.xcdatamodeld in Sources */,
+				75F4FBC12CF96B9B0099E42F /* ContentView.swift in Sources */,
+				75F4FBF02CF992030099E42F /* NetflixView.swift in Sources */,
+				75F4FBF62CF9929F0099E42F /* DisneyView.swift in Sources */,
+				75F4FBF42CF9927E0099E42F /* YouTubeView.swift in Sources */,
+				75F4FBBF2CF96B9B0099E42F /* tvosApp.swift in Sources */,
+				75F4FBF82CF9B3440099E42F /* MediaItem.swift in Sources */,
+				75F4FBEE2CF973800099E42F /* UserPage.swift in Sources */,
+				75F4FBFA2CF9B84F0099E42F /* CustomBackButton.swift in Sources */,
+				75F4FBF22CF9924D0099E42F /* AppleTVView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F4FBCC2CF96B9C0099E42F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F4FBD52CF96B9C0099E42F /* tvosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F4FBD62CF96B9C0099E42F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F4FBE12CF96B9C0099E42F /* tvosUITestsLaunchTests.swift in Sources */,
+				75F4FBDF2CF96B9C0099E42F /* tvosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75F4FBD22CF96B9C0099E42F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75F4FBBA2CF96B9B0099E42F /* tvos */;
+			targetProxy = 75F4FBD12CF96B9C0099E42F /* PBXContainerItemProxy */;
+		};
+		75F4FBDC2CF96B9C0099E42F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75F4FBBA2CF96B9B0099E42F /* tvos */;
+			targetProxy = 75F4FBDB2CF96B9C0099E42F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		75F4FBE22CF96B9C0099E42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 17.2;
+			};
+			name = Debug;
+		};
+		75F4FBE32CF96B9C0099E42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 17.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75F4FBE52CF96B9C0099E42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tvos/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.tvos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		75F4FBE62CF96B9C0099E42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tvos/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.tvos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		75F4FBE82CF96B9C0099E42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.tvosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tvos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tvos";
+				TVOS_DEPLOYMENT_TARGET = 17.2;
+			};
+			name = Debug;
+		};
+		75F4FBE92CF96B9C0099E42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.tvosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tvos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tvos";
+				TVOS_DEPLOYMENT_TARGET = 17.2;
+			};
+			name = Release;
+		};
+		75F4FBEB2CF96B9C0099E42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.tvosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = tvos;
+			};
+			name = Debug;
+		};
+		75F4FBEC2CF96B9C0099E42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.tvosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = tvos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75F4FBB62CF96B9B0099E42F /* Build configuration list for PBXProject "tvos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F4FBE22CF96B9C0099E42F /* Debug */,
+				75F4FBE32CF96B9C0099E42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75F4FBE42CF96B9C0099E42F /* Build configuration list for PBXNativeTarget "tvos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F4FBE52CF96B9C0099E42F /* Debug */,
+				75F4FBE62CF96B9C0099E42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75F4FBE72CF96B9C0099E42F /* Build configuration list for PBXNativeTarget "tvosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F4FBE82CF96B9C0099E42F /* Debug */,
+				75F4FBE92CF96B9C0099E42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75F4FBEA2CF96B9C0099E42F /* Build configuration list for PBXNativeTarget "tvosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F4FBEB2CF96B9C0099E42F /* Debug */,
+				75F4FBEC2CF96B9C0099E42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		75F4FBC92CF96B9C0099E42F /* tvos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				75F4FBCA2CF96B9C0099E42F /* tvos.xcdatamodel */,
+			);
+			currentVersion = 75F4FBCA2CF96B9C0099E42F /* tvos.xcdatamodel */;
+			path = tvos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 75F4FBB32CF96B9B0099E42F /* Project object */;
+}
